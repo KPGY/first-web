@@ -36,13 +36,8 @@ function Login() {
 }
 
 function black() {
-  const [color, setColor] = useState('white')
-  const ChangeColor = () => {
-    setColor('black')    
-  }
-  return <div className='black'>
-    <Button variant='contained' onclick={setColor} sx={{m:1}}>darkmode</Button>
-    <onclick ></onclick>
+  return <div>
+    <Button variant='contained' onClick={()=> {alert("구현예정!")}} sx={{m:1}}>darkmode</Button>
   </div>
 }
 
