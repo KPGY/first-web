@@ -37,7 +37,7 @@ function Login() {
 
 function black() {
   return <div>
-    <Button variant='contained' onClick={()=> {alert("구현예정!")}} sx={{m:1}}>darkmode</Button>
+    <Button variant='contained' Onlick={()=> {alert("구현예정!")}} sx={{m:1}}>darkmode</Button>
   </div>
 }
 
