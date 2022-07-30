@@ -6,6 +6,7 @@
     padding: 5px;
     width: 100%;
     z-index: 1;
+    margin-bottom: 15px;
 }
 
 .Product > img {
@@ -16,7 +17,7 @@
 
 .info {
     width: 100%;
-    color: black;
+    color: lightyellow;
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
@@ -29,5 +30,5 @@
 
 .name {
     margin: 5px;
-    color: black;
+    color: lightyellow;
 }

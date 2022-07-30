@@ -6,7 +6,7 @@ function Product( {image, logo, price, name} ) {
     return (
         <div className="Product">
             <img src={image} alt="이미지깨짐"></img>
-            <b className="name">{name}</b>
+            <strong className="name">{name}</strong>
             <div className="info">
             <img src={logo} alt="rp" className="rp"></img>
             <strong>{price}</strong>
