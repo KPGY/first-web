@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 유튜브에 있는 [아마존 클론코딩](https://www.youtube.com/watch?v=b5BH7kPboMk)을 참고하였다.
 
 ## Available Scripts
 
