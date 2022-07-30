@@ -5,12 +5,16 @@ import { Button } from '@mui/material';
 import { ButtonGroup } from '@mui/material';
 import Container from '@mui/material/Container';
 import Header from './Header';
+import Home from './Home'
+import { containerClasses } from '@mui/system';
 
 function App() {
   return (
-    <div>
+    <div className='main'>
+      <Container>
       <Header />
-      <h1>상점, 나만의 상점, 구매내역 구현예정</h1>
+      <Home />
+      </Container>
     </div>
   );
 }
