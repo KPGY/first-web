@@ -16,7 +16,7 @@
 
 .info {
     width: 100%;
-    color: lightyellow;
+    color: black;
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
@@ -29,5 +29,5 @@
 
 .name {
     margin: 5px;
-    color: lightyellow;
+    color: black;
 }

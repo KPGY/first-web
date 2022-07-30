@@ -1,13 +1,4 @@
-.background {
-    display: flex;
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
-    margin-bottom: -1500px;
-    min-height: auto;
-}
-
-.skin {
+.Bee {
     display: flex;
     width: 100%;
     position: absolute;
@@ -21,14 +12,33 @@
     position: relative;
 }
 
-.category {
+.category1 {
     position: absolute;
     left: 17px;
     top: 310px;
-    color: lightyellow;
+    color: black;
 }
 
 .ad {
     position: absolute;
     width: 100%;
+}
+
+.ad > img {
+    width: 100%;
+}
+
+.starGuardian {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+}
+
+.category2 {
+    position: absolute;
+    left: 17px;
+    top: 670px;
+    color: black;
 }
