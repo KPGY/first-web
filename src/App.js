@@ -1,21 +1,22 @@
 import React, { createContext, useContext } from 'react';
-import { useState, useRef } from 'react';
 import "./App.css";
-import { Button } from '@mui/material';
-import { ButtonGroup } from '@mui/material';
 import Container from '@mui/material/Container';
 import Header from './Header';
 import Home from './Home'
-import { containerClasses } from '@mui/system';
+import {BrowserRouter as Router , Link, Route, Routes, BrowserRouter} from "react-router-dom"
 
 function App() {
   return (
-    <div className='main'>
-      <Container>
-      <Header />
-      <Home />
-      </Container>
-    </div>
+    <BrowserRouter>
+      <div className='main'>             
+          <Container>
+          <Header />
+          </Container>
+        <Routes>
+          <Route path='/' element={<Container><Home/></Container>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
