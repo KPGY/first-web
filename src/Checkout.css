@@ -1,0 +1,16 @@
+.checkout {
+    display: flex;
+    position: relative;
+    max-height: max-content;
+}
+
+.ad {
+    width: 100%;
+}
+
+.checkout_title {
+    position: absolute;
+    top: 320px;
+    color: lightyellow;
+    border-bottom: 1px solid lightyellow ;
+}
