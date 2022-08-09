@@ -13,7 +13,7 @@ function Subtotal () {
             <CurrencyFormat
             renderText={(value)=> (
                 <>
-                    <p>총액( {basket?.length} skin): <strong> {value} 원 </strong>
+                    <p>총액( {basket?.length} skin): <strong> {value} rp </strong>
                     </p>
                     <small className="subtotal_gift">
                         <input type="checkbox"/>전체선택
@@ -25,7 +25,6 @@ function Subtotal () {
             value={getBasketTotal(basket)}
             displayType={"text"}
             thousandSeparator={true}
-            prefix={"₩"}
             />
 
             <button>결제하기</button>

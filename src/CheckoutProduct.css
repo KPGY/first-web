@@ -1,0 +1,25 @@
+.skin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    top: 350px;
+    left: 0px;
+    color: lightyellow;
+}
+
+.skin_price {
+    display: flex;
+    justify-content: center;
+
+}
+
+.skin_info {
+    padding: 5px;
+}
+
+
+.skin_price > img {
+    width: 20px;
+}
