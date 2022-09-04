@@ -17,8 +17,6 @@ function CheckoutProduct( {image, logo, price, name} ) {
                     <strong>{price}</strong>
                 </b>
             </div>
-
-            <Button variant="contained" onClick={removefromBasket}>장바구니에서 제거</Button>
         </div>
     )
 }

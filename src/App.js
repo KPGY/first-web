@@ -5,6 +5,7 @@ import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
 import {BrowserRouter as Router , Link, Route, Routes, BrowserRouter} from "react-router-dom";
+import Footer from './Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className='main'>             
           <Container>
           <Header />
+          <Footer/>
           </Container>
         <Routes>
           <Route path='/' element={<Container><Home/></Container>} />
