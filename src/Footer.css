@@ -1,6 +1,7 @@
 .Footer {
     display: flex;
     position: absolute;
+    justify-content: center;
     bottom: 0;
     align-items: center;
     color: lightyellow;
