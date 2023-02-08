@@ -31,7 +31,7 @@ const addToBasket = () => {
             <img src={logo} alt="rp" className="rp"></img>
             <strong>{price}</strong>
             </div>
-            <Button variant="contained" onClick={addToBasket}>장바구니 담기</Button>
+            <Button variant="contained" onClick={addToBasket}>구매하기</Button>
         </div>
     )
 }
